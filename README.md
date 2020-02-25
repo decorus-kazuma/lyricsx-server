@@ -5,17 +5,25 @@ If you look at this Chinese character '見', Japan and Korea use the same charac
 
 In most cases, it won't be a problem at all. Most lyrics use the Japanese kanji character. and I can understand in most cases. However, it is a bit annoying. Why? Well, I can not know every Chinese Character! Yeah, I can understand 'some' character, but after all, it is a foreign language to me.
 
+## TODO and Features
+This project for my real-world testing about microservices and some other awesome things like graphql, gRPC, webRTC. 
+
+### TODO
+#### Personal lyrics storages
+#### Voting the lyrics
+Inspired by Alsong's(music player based on BASS) lyrics system
+
+### Features
 
 
-## TODO
 
-[ ] Apply Elasticsearch 
 
-[ ] Support LINE MUSIC
+## TODO (About dev)
 
-[ ] Support AWA
-
-[ ] Support Alsong
+- Apply Elasticsearch 
+- Support LINE MUSIC
+- Support AWA
+- Support Alsong
 
 
 
@@ -23,21 +31,19 @@ In most cases, it won't be a problem at all. Most lyrics use the Japanese kanji 
 
 ### Native
 
-```
-java
-```
+	java
 
 
 
 ### Docker
 
-```
-docker-compose up -d
-```
+	docker-compose up -d
 
 
 
-## Copyright
+## License
+LyricsX-Server is licensed under the MIT. See [LICENSE.md][1] for full license text.
+	Copyright 2020 Kazuma Itou.
+	
 
-MIT
-
+[1]:	./LICENSE.md
